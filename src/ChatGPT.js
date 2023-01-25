@@ -13,8 +13,7 @@ const ChatGPT = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization:
-            "Bearer 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",
+          Authorization: "Bearer insert API key",
         },
         body: JSON.stringify({
           prompt: prompt,
